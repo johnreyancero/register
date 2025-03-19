@@ -1,0 +1,177 @@
+/* General styling */
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url("457506150_919298016889481_263588129966365561_n.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: #70797e;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+
+    height: 100vh;
+}
+.uclogo{
+    width: 65px;
+    height: 60px;
+    position: absolute;
+    margin-left: -80px;
+    margin-top: 110px;
+
+}
+.ccslogo{
+    width: 55px;
+    height: 50px;
+    position: absolute;
+    margin-left: 80px;
+    margin-top: 110px;
+
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    background-color: #0f0f0f;
+    color: white;
+}
+.title-font{
+    color: #0e0e0e;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+.auth-box {
+
+    background-color: #F8FAFC;
+    
+    border-radius: 8px;
+    
+    padding: 40px 20px 20px 20px;
+    
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    
+    width: 100%;
+    
+    height: 350px;
+    
+    max-width: 500px;
+    
+    text-align: center;
+    
+    margin-top: 100px;
+    
+    
+    }
+
+.auth-box2 {
+    margin-top: 50px;
+    background-color: #f4fbf3;
+    border-radius: 8px;
+    padding: 20px 20px 20px 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px; /* Same max-width as auth-box */
+    text-align: center;
+    /* Key changes for scrolling: */
+    overflow-y: auto;  /* Enables vertical scrolling */
+    max-height: 450px; /* Sets a maximum height. Content exceeding this will scroll */
+    /* OR */
+    /* height: 350px;  Sets a fixed height. Content exceeding this will scroll */
+}
+.auth-box2 h1 {
+    margin-bottom: 20px;
+    font-size: 26px;
+    color: #333;
+    font-weight: 600;
+}
+
+.auth-box h1 {
+    margin-bottom: 20px;
+    font-size: 26px;
+    color: #333;
+    font-weight: 600;
+}
+
+.input-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+.input-group input, .input-group select {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.input-group input:focus, .input-group select:focus {
+    border-color: #4CAF50;
+    outline: none;
+}
+
+.form-actions {
+    margin-top: 20px;
+}
+
+.btn {
+    background-color: #8D77AB;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
+
+a {
+    color: #2196F3;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .auth-box {
+        padding: 20px;
+        width: 90%;
+        max-width: 400px;
+    }
+
+    .auth-box h1 {
+        font-size: 20px;
+    }
+
+    .input-group input, .input-group select {
+        padding: 10px;
+    }
+
+    .btn {
+        padding: 10px 15px;
+    }
+}
+/*//////////////////////////////////////////////////HOME HOME HOME///////////////////////////////////////////////////*/
+
